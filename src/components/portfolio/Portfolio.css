@@ -1,0 +1,56 @@
+.bodyPortfolio {
+  background-color: #fff;
+  color: #273c4d ;
+  position: relative;
+  z-index: 1 !important;
+}
+h1 {
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-family: "Open Sans";
+}
+h2 {
+  font-family: "Open Sans";
+}
+
+span {
+  color: #ff8700;
+}
+
+.creative-img {
+  width: 40% !important;
+  height: auto !important;
+}
+
+.top1 {
+  margin-top: 10rem !important;
+}
+
+.top2 {
+  margin-top: 5rem !important;
+}
+
+.gray{
+	background-color: #d2d3ce;
+}
+.blue{
+	background-color: #273c4d;
+}
+.ligthblue{
+	background-color: #7a9aaf;
+}
+.darkblue{
+	background-color: #0d1a2a;
+}
+
+/* Paleta de colores */
+
+/*
+ * #ff8700 Mostaza
+ * #0d1a2a Azul oscuro
+ * #273c4d Azul Medio
+ * #7a9aaf Azul Claro
+ * #d2d3ce gris
+ */

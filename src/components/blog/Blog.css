@@ -1,0 +1,54 @@
+.bodyBlog {
+  background: url(./wall.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-family: "Open Sans";
+}
+.glass {
+  background-color: #0d1a2a;
+  opacity: 0.8;
+}
+
+.languaje {
+  text-align: right;
+}
+
+.post {
+  background-color: #fff;
+  color: #273c4d;
+}
+
+.iconStyle {
+  font-size: 4rem;
+  color: #ff8700;
+}
+
+.top1 {
+  margin-top: 10rem !important;
+}
+
+.top2 {
+  margin-top: 5rem !important;
+}
+
+.img-blog {
+  width: 70%;
+  height: auto;
+}
+/* Paleta de colores */
+
+/*
+ * #ff8700 Mostaza
+ * #0d1a2a Azul oscuro
+ * #273c4d Azul Medio
+ * #7a9aaf Azul Claro
+ * #d2d3ce gris
+ */

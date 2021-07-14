@@ -1,0 +1,40 @@
+.bodyHome {
+  background: url(./wall.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  position: relative;
+  z-index: 1 !important;
+}
+
+h2 {
+  font-family: "Open Sans";
+}
+
+.glass {
+  background-color: #0d1a2a;
+  opacity: 0.8;
+}
+
+.languaje {
+  text-align: right;
+}
+
+.top1 {
+  margin-top: 10rem !important;
+}
+
+.top2 {
+  margin-top: 5rem !important;
+}
+
+
+/* Paleta de colores */
+
+/*
+ * #ff8700 Mostaza
+ * #0d1a2a Azul oscuro
+ * #273c4d Azul Medio
+ * #7a9aaf Azul Claro
+ * #d2d3ce gris
+ */
