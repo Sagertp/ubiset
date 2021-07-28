@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Services.css";
+import Service from "./Service";
+import ubiset from "../../utilities/data";
 
 const Services = () => {
+  const cont = 0
+  const lista = ubiset.servicios.servicio;
+  const [servicio, setServicio] = useState(lista);
+  console.log(servicio);
   return (
     <div className="container-fluid bodyServices">
       <div className="row">
@@ -12,56 +18,28 @@ const Services = () => {
         <div className="row top1">
           <div className="col-xxl-4">
             <h1>
-              <span>OUR</span> SERVICES
+              <span>{ubiset.servicios.titulo}</span>
             </h1>
-            <p>
-              Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-              non felis in sapien molestie interdum. Ut bibendum, sem velegestas
-              faucibus,
-            </p>
+            <p>{ubiset.servicios.contexto}</p>
           </div>
           <div className="col-xxl-8 row services">
-            <article className="col-xxl-6">
-              <i className="bi bi-trophy iconStyle"></i>
-              <h3>BRANDING</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-              <i className="bi bi-camera iconStyle"></i>
-              <h3>PHOTOGRAPHY</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-              <i className="bi bi-gear iconStyle"></i>
-              <h3>ANIMATION</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-	      <i className="bi bi-lightbulb iconStyle"></i>
-              <h3>GENERATE IDEAS</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
+            {servicio.map((servicio) => (
+              <Service
+                k={cont + 1}
+                titulo={servicio.titulo}
+                contexto={servicio.contexto}
+                icono={servicio.icono}
+              />
+            ))}
           </div>
         </div>
         <div className="row top2">
-	  <p className="col-md-6"><span>03</span> / 07</p>
-	    <p className="col-md-6 languaje"><span>ES</span> / ENG</p>
+          <p className="col-md-6">
+            <span>03</span> / 07
+          </p>
+          <p className="col-md-6 languaje">
+            <span>ES</span> / ENG
+          </p>
         </div>
       </div>
     </div>
