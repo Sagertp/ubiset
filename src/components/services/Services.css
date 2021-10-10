@@ -1,44 +1,96 @@
-.bodyServices {
-  background: url(./wall.jpg) no-repeat center;
+
+.bodyservices {
+  color: #fff;
+  background: url(./Sagert-3.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
-  color: #fff;
   position: relative;
-  z-index: 1 !important;
+  z-index: 1 !important;  
+  /*filter: grayscale(100%);*/
 }
+.row>* {
+  padding-left: 0px!important;
+}
+.fondo-serv{
+  background-color: #3b3b3be6;
+  min-height: 100vh;
+  padding-left: 100px;
 
-h1 {
-  font-family: "Open Sans";
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
 }
-
-h3 {
-  font-family: "Open Sans";
+.fondo-serv h2{
+  font-size: 60px;
+  font-family: 'Cookie', cursive;
 }
-.glass {
-  background-color: #0d1a2a;
-  opacity: 0.8;
+.fondo-serv h3{
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
 }
-
-.languaje {
-  text-align: right;
+.fondo-serv p{
+  font-size: 30px;
+  width: 70%;
+  font-family: 'Dosis', sans-serif;
 }
-
-.services {
-  background-color: #fff;
-  color: #273c4d ;
+.fondo-serv h3 strong{
+  color: #f18513;
 }
-
-.iconStyle {
-  font-size: 4rem;
-  color: #ff8700;
+.img-services{
+  position: absolute;
+  top: 40%;
+  z-index: 3;
 }
-
-.top1 {
-  margin-top: 10rem !important;
+.servicios{
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.856)!important;
+  color:#000000 ;
+  position: relative;
+  left: -100px;
 }
-
-.top2 {
-  margin-top: 5rem !important;
+.servicios h4{
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+}
+.servicios p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+.after{
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 980px){
+  .fondo-serv{
+    background-color: #3b3b3be6;
+    height: 17rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+  }
+  .servicios{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff!important;
+    left: 0px;
+  }
+  .fondo-serv p{
+    font-size: 15px;
+    width: 100%;
+  }
+  .row>* {
+    padding-right: 0px!important;
+  }
+  .fondo-serv h3 {
+    position: absolute;
+    top: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
 }
 
 /* Paleta de colores */

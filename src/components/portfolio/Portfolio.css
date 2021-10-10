@@ -1,52 +1,111 @@
 .bodyPortfolio {
-  background-color: #fff;
-  color: #273c4d ;
+  color: #fff;
+  /*background: url(./wall.jpg) no-repeat center;*/
+  background-size: cover;
+  min-height: 100vh;
   position: relative;
-  z-index: 1 !important;
+  z-index: 1 !important;  
+  overflow-y: hidden;
 }
-h1 {
-  font-family: "Open Sans";
+.fondo-port{
+  min-height: 100vh;
+  padding-left: 100px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.fondo-port h2{
+  font-size: 60px;
+  font-family: 'Cookie', cursive;
+  font-weight: bold;
+  color: black;
+}
+.fondo-port a{
+  line-height: 60px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+.fondo-port a:hover{
+  color: #f18513;
+}
+.fondo-port h3{
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+.fondo-port h3 strong{
+  color: #f18513;
+}
+.uno{
+  background-color: #d2d3ce;
+  min-height: 50vh;
+}
+.dos{
+  background-color: #7a9aaf;
+  min-height: 50vh;
+}
+.tres{
+  background-color: #273c4d;
+  min-height: 50vh;
+}
+.cuatro{
+  background-color: #0d1a2a;
+  min-height: 50vh;
+}
+.folio img{
+  width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+
+  position: relative;
+  top: 25%;
+}
+.uno:hover{ 
+  background-color: #ff8700;
+  cursor: pointer;
+}
+.dos:hover{ 
+  background-color: #ff8700;
+  cursor: pointer;
+}
+.tres:hover{ 
+  background-color: #ff8700;
+  cursor: pointer;
+}
+.cuatro:hover{ 
+  background-color: #ff8700;
+  cursor: pointer;
 }
 
-h3 {
-  font-family: "Open Sans";
-}
-h2 {
-  font-family: "Open Sans";
-}
-
-span {
-  color: #ff8700;
-}
-
-.creative-img {
-  width: 40% !important;
-  height: auto !important;
-}
-
-.top1 {
-  margin-top: 10rem !important;
-}
-
-.top2 {
-  margin-top: 5rem !important;
-}
-
-.gray{
-	background-color: #d2d3ce;
-}
-.blue{
-	background-color: #273c4d;
-}
-.ligthblue{
-	background-color: #7a9aaf;
-}
-.darkblue{
-	background-color: #0d1a2a;
+@media(max-width: 980px){
+  .fondo-port h3{
+    color: rgb(255, 255, 255);
+  }
+  .fondo-port h2{
+    font-size: 50px;
+  }
+  .fondo-port{
+    height: 17rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+  }
 }
 
 /* Paleta de colores */
-
 /*
  * #ff8700 Mostaza
  * #0d1a2a Azul oscuro

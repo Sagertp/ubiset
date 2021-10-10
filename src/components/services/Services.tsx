@@ -1,70 +1,59 @@
 import React from "react";
 import "./Services.css";
+import servicios from "./SERVICIOS.png"
+import dg from "./diseno.png"
+import dw from "./web.png"
+import fg from "./fotografia.png"
+import pl from "./publicidad.png"
 
 const Services = () => {
   return (
-    <div className="container-fluid bodyServices">
-      <div className="row">
-        <div className="col-md-5 glass"></div>
-        <div className="col-md-7"></div>
-      </div>
-      <div className="container">
-        <div className="row top1">
-          <div className="col-xxl-4">
-            <h1>
-              <span>OUR</span> SERVICES
-            </h1>
+    <div className="container-fluid bodyservices">
+      <div className="row left">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="fondo-serv">
+            {/*<img className="img-services" src={servicios} alt="" />*/}
+            <h2>Servicios</h2>
             <p>
-              Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-              non felis in sapien molestie interdum. Ut bibendum, sem velegestas
-              faucibus,
+              Entregamos sitios web basados en plataformas de comercio electrónico, desarrollo de sitios web corporativos y presencia digital en todos los canales de venta.
             </p>
-          </div>
-          <div className="col-xxl-8 row services">
-            <article className="col-xxl-6">
-              <i className="bi bi-trophy iconStyle"></i>
-              <h3>BRANDING</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-              <i className="bi bi-camera iconStyle"></i>
-              <h3>PHOTOGRAPHY</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-              <i className="bi bi-gear iconStyle"></i>
-              <h3>ANIMATION</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-            <article className="col-xxl-6">
-	      <i className="bi bi-lightbulb iconStyle"></i>
-              <h3>GENERATE IDEAS</h3>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
-            </article>
-          </div>
+            <h3>03<strong>/06</strong></h3>
+          </div>             
         </div>
-        <div className="row top2">
-	  <p className="col-md-6"><span>03</span> / 07</p>
-	    <p className="col-md-6 languaje"><span>ES</span> / ENG</p>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 after">
+          <div className="servicios">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img className="" src={dg} alt="" />
+                <h4>Diseño Gráfico</h4>
+                <p>Diseño gráfico para redes sociales y otros canales de ventas digitales. 
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img className="" src={dw} alt="" />
+                <h4>Desarrollo web</h4>
+                <p>Plataformas e-commerce y sitios web corporativos. 
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+               <img className="" src={fg} alt="" />
+                <h4>Fotografía</h4>
+                <p>Fotografía profesional, para productos, espacios y personas. 
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img className="" src={pl} alt="" />
+                <h4>Publicidad en Linea</h4>
+                <p>Campañas de públicidad en Facebook y Google Ads. 
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div>    
   );
 };
 export default Services;

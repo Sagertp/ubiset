@@ -5,49 +5,41 @@ const Creative = () => {
   return (
     <div className="container-fluid bodyCreative">
       <div className="row">
-        <div className="col-md-5 glass"></div>
-        <div className="col-md-7"></div>
-      </div>
-
-      <div className="container">
-        <div className="row align-items-center top1">
-          <div className="col-xxl-4">
-            <h1>
-              <span>OUR</span>
-              <br></br> TEAM
-            </h1>
-            <p>
-              {" "}
-              Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-              non felis in sapien molestie interdum.
-              <br></br>
-              Ut bibendum, sem vel egestas faucibus, nisi diam consectetur
-              justo, et tempor nulla elit a velit. Quisque eget sollicitudin
-              quam, vitae aliquet felis. Mauris tincidunt ultricies velit non
-              pellentesque. Phasellus sed porta ante. Praesent ultrices vitae mi
-              vitae consequat.{" "}
-            </p>
-          </div>
-          <div className="row col-xxl-8">
-            <img
-              className="col-xxl-6 creative-img"
-              src={peopple}
-              alt="TypeWriter"
-            />
-            <img
-              className="col-xxl-6 creative-img"
-              src={peopple}
-              alt="TypeWriter"
-            />
-          </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="fondo-contact">
+            {/*<img className="img-services" src={servicios} alt="" />*/}
+            <h2>Contacto</h2>
+            <h4>EMAIL:</h4>
+            <p>ubiset.ca@gmail.com</p>
+            <h4>TELÉFONO:</h4>
+            <p>+58 0414 3379640</p>
+            <h3>06<strong>/06</strong></h3>
+          </div>  
         </div>
-        <div className="row align-items-end top2">
-          <p className="col-md-6">
-            <span>02</span> / 07
-          </p>
-          <p className="col-md-6 languaje">
-            <span>ES </span>/ ENG
-          </p>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="fondo-contact-2 after">
+            <div className="container">
+              <form>
+                <div className="form-group">
+                  <label>Nombre</label>
+                  <input type="nombre" className="form-control" id="exampleInputNombre1" aria-describedby="nombrelHelp" placeholder="" />
+                </div>
+                <div className="form-group">
+                  <label>Email</label>
+                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" />
+                </div>
+                <div className="form-group">
+                  <label>Teléfono</label>
+                  <input type="phone" className="form-control" id="exampleInputphone" placeholder="" />
+                </div>
+                <div className="form-group">
+                  <label>Mensaje</label>
+                  <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">ENVIAR</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,36 +1,61 @@
+
 .bodyHome {
-  background: url(./wall.jpg) no-repeat center;
+  color: #fff;
+  background: url(./Pano-Parque\ S\ Bolívar-1h.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
-  color: #fff;
   position: relative;
-  z-index: 1 !important;
+  z-index: 1 !important; 
 }
-
-h2 {
-  font-family: "Open Sans";
+.fondo-home{
+  background-color: #3b3b3bc7;
+  min-height: 100vh;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-
-.glass {
-  background-color: #0d1a2a;
-  opacity: 0.8;
+.fondo-home h2{
+  font-size: 50px;
+  font-family: 'Cookie';
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
-
-.languaje {
-  text-align: right;
+.fondo-home h3{
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
 }
-
-.top1 {
-  margin-top: 10rem !important;
+.parrafo{
+  min-height: 100vh;
+  display: flex;
+  align-items: center!important;
+  justify-content: flex-start;
 }
-
-.top2 {
-  margin-top: 5rem !important;
+.negrita{
+  color: #f18513;
 }
-
-
+.fondo-home h3 strong{
+  color: #f18513;
+}
+@media(max-width: 980px){
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0)!important;
+  }
+  .parrafo {
+    min-height: 0vh;
+    visibility: hidden;
+  }
+}
+@media(max-width: 767px){
+  .fondo-home {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 /* Paleta de colores */
-
 /*
  * #ff8700 Mostaza
  * #0d1a2a Azul oscuro
@@ -38,3 +63,5 @@ h2 {
  * #7a9aaf Azul Claro
  * #d2d3ce gris
  */
+
+

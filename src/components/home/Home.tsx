@@ -1,26 +1,22 @@
 import React from "react";
 import "./Home.css";
+import desing from "./Imagen.svg"
+import home from "./Pano-Parque S Bolívar-1h.jpg"
 
 const Home = () => {
   return (
     <div className="container-fluid bodyHome">
-        <div className="row">
-          <div className="col-md-5 glass"></div>
-          <div className="col-md-7"></div>
+      <div className="row">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="fondo-home">
+            {/*<img className="img-services" src={servicios} alt="" />*/}  
+            <h2>Utilizamos la investigación, la estrategia y el diseño para crear <p className="negrita"> experiencias de usuario atractivas</p></h2>
+            <h3>01<strong>/06</strong></h3>
+          </div>         
         </div>
-        <div className="container">
-          <div className="row top1">
-            <h1>
-	      The typeface dosen`t really metter, <br></br> as long as the{" "}
-              <span> text is good. </span>{" "}
-            </h1>
-          </div>
-          <div className="row align-items-end top2">
-	    <p className="col-md-6"><span>01</span> / 07</p>
-	      <p className="col-md-6 languaje"><span>ES</span> / ENG</p>
-          </div>
-        </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6"></div>
       </div>
+    </div>         
   );
 };
 export default Home;

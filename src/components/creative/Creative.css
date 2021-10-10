@@ -1,39 +1,61 @@
-.bodyCreative {
-  background-color: #fff;
-  color: #273c4d ;
+.bodywe{
+  color: #fff;
+  /*background: url(./wall.jpg) no-repeat center;*/
+  background-size: cover;
+  min-height: 100vh;
   position: relative;
-  z-index: 1 !important;
+  z-index: 1 !important;  
+  overflow-x: hidden;
 }
-h1 {
-  font-family: "Open Sans";
-}
+.fondo-we{
+  min-height: 100vh;
+  padding-left: 100px;
 
-h3 {
-  font-family: "Open Sans";
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
 }
-h2 {
-  font-family: "Open Sans";
+.fondo-we h2{
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+  font-family: 'Cookie', cursive;
 }
-
-span {
-  color: #ff8700;
+.fondo-we p{
+  font-size: 30px;
+  width: 70%;
+  color: black;
+  font-family: 'Dosis', sans-serif;
 }
-
-.creative-img {
-  width: 40% !important;
-  height: auto !important;
+.fondo-we h3{
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
 }
-
-.top1 {
-  margin-top: 10rem !important;
+.fondo-we h3 strong{
+  color: #f18513;
 }
-
-.top2 {
-  margin-top: 5rem !important;
+.img-us{
+  width: 400px;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width: 980px){
+  .fondo-we{
+    min-height: 50vh;
+    padding-left: 100px;
+  }
 }
 
 /* Paleta de colores */
-
 /*
  * #ff8700 Mostaza
  * #0d1a2a Azul oscuro

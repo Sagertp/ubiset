@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  max-width: 1920px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*body {
+  background: url(/src/ascets/Sagert-2.jpg) no-repeat center;
+  background-size: cover;
+  max-width:100%;
+  height: auto;
+  
+}*/

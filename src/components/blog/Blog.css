@@ -1,50 +1,104 @@
 .bodyBlog {
+  color: #fff;
   background: url(./wall.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
-  color: #fff;
+  position: relative;
+  z-index: 1 !important;  
+  /*filter: grayscale(100%);*/
+}
+.fondo{
+  background-color: #3b3b3bc7;
+}
+.blog-left{
+  min-height: 100vh;
+  padding-left: 100px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-left h2{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Cookie', cursive;
+}
+.blog-left p{
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+}
+.blog-left h3{
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  font-size: 40px;
+}
+.blog-left h3 strong{
+  color: #f18513;
+}
+.blog h4{
+  color: #000000;
+  background-color: #ffffff;
+  /*min-width: -5vh;*/
+  font-size: 15px;
+  max-width: 300px;
+  width: 90%;
+  padding: 10px;
+}
+.blog{
+  padding: 40px;
+  /*background-color: rgba(255, 255, 255, 0.856)!important;*/
+  color:#000000 ;
+}
+.blog img{
+  max-width: 300px;
+  width: 90%;
+}
+.after{
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 980px){
+  .blog{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff!important;
+    left: 0px;
+  }
+  .row>* {
+    padding-right: 0px!important;
+  }
+  .blog h4 {
+    max-width: 2000px;
+    width: 90%;
+    font-size: 25px;
+  }
+  .blog-left h3 {
+    color: black;
+    font-weight: bold;
+  }
+  .blog img {
+    max-width: 2000px;
+    width: 90%;
+  }
+  .blog-left h3{
+    color: rgb(255, 255, 255);
+  }
+  .blog-lefth2{
+    font-size: 50px;
+  }
+  .blog-left{
+    height: 17rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+  }
 }
 
-h1 {
-  font-family: "Open Sans";
-}
 
-h3 {
-  font-family: "Open Sans";
-}
-.glass {
-  background-color: #0d1a2a;
-  opacity: 0.8;
-}
-
-.languaje {
-  text-align: right;
-}
-
-.post {
-  background-color: #fff;
-  color: #273c4d;
-}
-
-.iconStyle {
-  font-size: 4rem;
-  color: #ff8700;
-}
-
-.top1 {
-  margin-top: 10rem !important;
-}
-
-.top2 {
-  margin-top: 5rem !important;
-}
-
-.img-blog {
-  width: 70%;
-  height: auto;
-}
 /* Paleta de colores */
-
 /*
  * #ff8700 Mostaza
  * #0d1a2a Azul oscuro

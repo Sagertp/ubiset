@@ -1,56 +1,43 @@
 import React from "react";
 import "./Portfolio.css";
 import peopple from "./h-b-m.png";
+import castellana from "./dos.png"
+import integraciones from "./tres.png"
+import remet from "./cuatro.png"
+import nueva from "./uno.png"
 
 const Portfolio = () => {
   return (
     <div className="container-fluid bodyPortfolio">
       <div className="row">
-        <div className="col-md-5 glass"></div>
-        <div className="col-md-7"></div>
-      </div>
-
-      <div className="container">
-        <div className="row align-items-center top1">
-          <div className="col-xxl-6">
-            <h1>
-              <span>-</span>
-              PROYECTOS
-            </h1>
-            <p>CASTELLANA MOTORS</p>
-            <p>M & S INTEGRACIONES</p>
-            <p>REMET</p>
-          </div>
-          <div className="row col-xxl-6">
-            <img
-              className="col-xxl-6 creative-img gray"
-              src={peopple}
-              alt="TypeWriter"
-            />
-            <img
-              className="col-xxl-6 creative-img ligthblue"
-              src={peopple}
-              alt="TypeWriter"
-            />
-            <img
-              className="col-xxl-6 creative-img blue"
-              src={peopple}
-              alt="TypeWriter"
-            />
-            <img
-              className="col-xxl-6 creative-img darkblue"
-              src={peopple}
-              alt="TypeWriter"
-            />
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="fondo-port">
+            <h2>Proyectos</h2>
+            <a target="_blank" href="http://www.castellanamotors.com/">Castellana Motors</a>
+            <a target="_blank" href="https://www.msintegraciones.com.ve/">M & S Integraciones</a>
+            <a target="_blank" href="http://www.remet.cl/">Remet</a>     
+            <h3>04<strong>/06</strong></h3>
           </div>
         </div>
-        <div className="row align-items-end top2">
-          <p className="col-md-6">
-            <span>02</span> / 07
-          </p>
-          <p className="col-md-6 languaje">
-            <span>ES </span>/ ENG
-          </p>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="folio">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 uno">  
+                <a target="_blank" href="http://www.castellanamotors.com/"><img src={castellana} alt="" /></a>                              
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 dos">                
+                <a target="_blank" href="https://www.msintegraciones.com.ve/"><img src={integraciones} alt="" /></a>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 tres">
+                <a target="_blank" href="http://www.remet.cl/"><img src={remet} alt="" /></a>                  
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 cuatro">
+                <img src={nueva} alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

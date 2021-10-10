@@ -6,8 +6,11 @@ import {
   Route,
   Link,
   useRouteMatch,
-} from "react-router-dom";
-import logo from "./Logo_Blanco.png";
+} 
+
+from "react-router-dom";
+import logo from "./logo.png";
+import desing from "./Imagen.svg"
 import Home from "../home/Home";
 import Services from "../services/Services";
 import Creative from "../creative/Creative";
@@ -20,51 +23,54 @@ const Nav = () => {
   const out = () => {
     console.log("LogOut");
   };
-
   return (
     <Router>
-      <nav className="navbar justify-content-center ">
-        <a className="navbar-brand" href="/">
-          <img className="logo-img" src={logo} alt="Logo Ubiset" />
-        </a>
-        <ul className="nav">
-          <li className="nav-item">
-            <Link className="nav-link active" to="/creative">
-              Creative
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/services">
-              Services
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/proyects">
-              Proyects
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/team">
-              Team
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/blog">
-              Blog
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/touch">
-              Touch
-            </Link>
-          </li>
-          <li className="nav-item hiden">
-            <a className="nav-link" href="/" onClick={out}>
-              LogOut
+      <header className="header">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              <img src={logo} alt="Logo Ubiset" />
             </a>
-          </li>
-        </ul>
-      </nav>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <Link className="nav-link active" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/creative">
+                    Nosotros
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/services">
+                    Servicios
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/proyects">
+                    Portafolio
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/team">
+                    Contacto
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>    
       <Switch>
         <Route exact path="/">
           <Home />

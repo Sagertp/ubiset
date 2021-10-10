@@ -1,98 +1,44 @@
 /* ESTILOS MENU TRANSPARENTE */
-
-.content {
-  width: 94%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-}
-.logo-box {
-  position: fixed;
-  float: left;
-  margin: 16px 46px;
-}
-.logo-img{
-  width:50px !important;
-  height:auto !important;
-}
-
-.navbar {
-  background-color: transparent !important;
-}
-
-nav {
-  position: absolute !important;
-  width: 100%;
-  z-index: 2 !important;
-}
-nav ul {
-  line-height: 60px;
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  color: #fff;
-  padding: 0;
-  text-align: right;
-  margin: 0;
-  padding-right: 40px;
-  transition: 1s;
-}
-nav.black ul {
-  background: #000;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 16px 16px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff !important;
-  font-size: 16px;
-}
-nav ul li a:hover {
-  color: #c4c4c4 !important;
-  text-decoration: none;
-}
-.menu-icon {
-  line-height: 60px;
-  width: 100%;
-  background: #000;
-  text-align: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
-  cursor: pointer;
-  color: #fff;
-  display: none;
-}
-@media (max-width: 786px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px;
-  }
-  nav ul {
-    max-height: 0px;
-    background: #000;
-  }
-  nav.black ul {
-    background: #000;
-  }
-  .showing {
-    max-height: 34em;
-  }
-  nav ul li {
-    box-sizing: border-box;
+.header .navbar {
+    background-color: transparent!important;
+    position: absolute;
+    z-index: 2;
+    max-width: 2560px;
     width: 100%;
-    padding: 14px;
-    text-align: left;
+}
+.navbar-nav li{
+    margin-right: 30px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(185, 185, 185)!important;
+    font-family: -webkit-pictograph;
+    font-size: 23px;
+    font-weight: 400;
+}
+.navbar-light .navbar-toggler {
+    border-color: #00000000!important;
   }
-  nav ul li a:hover {
-    color: #0f76ff !important;
-    text-decoration: none;
-  }
-  .menu-icon {
-    display: block;
-  }
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem!important;
+}
+#navbarNav{
+    display: flex!important;
+    justify-content: center;
+}
+@media(max-width: 980px){
+    .header .navbar {
+        position: relative;
+    }
+    #navbarNav {
+        display: initial!important;
+        justify-content: flex-start;
+    }
 }

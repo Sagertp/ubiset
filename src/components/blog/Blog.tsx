@@ -2,60 +2,48 @@ import React from "react";
 import "./Blog.css";
 import woman from "./woman.jpg";
 import colleagues from "./colleagues.jpg";
+import img1 from "./portrait.jpg"
+import img2 from "./pretty.png"
 
 const Blog = () => {
   return (
     <div className="container-fluid bodyBlog">
-      <div className="glass">
-        <div className="container">
-          <div className="row">
-            <div className="col-xxl-4 top1">
-              <h1>
-                <span>-</span> BLOG
-              </h1>
-              <p>
-                Etiam ut elit dictum, gravida ligula non, mollis tortor. Aliquam
-                non felis in sapien molestie interdum. Ut bibendum, sem
-                velegestas faucibus,
-              </p>
+      <div className="row fondo">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div className="blog-left">
+            {/*<img className="img-services" src={servicios} alt="" />*/}
+            <h2>Blog</h2>
+            <p>
+              Los mejores articulos de información, tendencia, tips de comercio electrónico, plataformas digitales, marketing digital, e-commerce, diseño, fotografía. 
+            </p>
+            <h3>05<strong>/06</strong></h3>
+          </div>  
+        </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 after">
+          <div className="blog">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">  
+                <img src={img2} alt="" />     
+                <h4>EL HOME OFFICE</h4>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">                
+                <img src={img2} alt="" />
+                <h4>EL HOME OFFICE</h4>
+              </div>
             </div>
-            <div className="col-xxl-8 row top1">
-              <article className="col-xxl-6 post">
-                <img className="img-blog" src={woman} alt="" />
-                <h3>
-                  BRANDING <i className="bi bi-search"></i>
-                </h3>
-              </article>
-              <article className="col-xxl-6 post">
-                <img className="img-blog" src={colleagues} alt="" />
-                <h3>
-                  BRANDING <i className="bi bi-search"></i>
-                </h3>
-              </article>
-              <article className="col-xxl-6 post">
-                <img className="img-blog" src={colleagues} alt="" />
-                <h3>
-                  BRANDING <i className="bi bi-search"></i>
-                </h3>
-              </article>
-              <article className="col-xxl-6 post">
-                <img className="img-blog" src={woman} alt="" />
-                <h3>
-                  BRANDING <i className="bi bi-search"></i>
-                </h3>
-              </article>
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src={img2} alt="" /> 
+                <h4>EL HOME OFFICE</h4>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src={img2} alt="" />
+                <h4>EL HOME OFFICE</h4>                  
+              </div>
             </div>
           </div>
         </div>
-        <div className="row top2">
-          <p className="col-md-6">
-            <span>03</span> / 07
-          </p>
-          <p className="col-md-6 languaje">
-            <span>ES</span> / ENG
-          </p>
-        </div>
-      </div>
+      </div>        
     </div>
   );
 };
