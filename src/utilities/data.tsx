@@ -9,22 +9,22 @@ const Ubiset = {
       {
         titulo: "Diseño Gráfico",
         contexto: "Diseño gráfico para redes sociales y otros canales de ventas digitales.",
-        icono: "bi bi-cart4 iconStyle",
+        icono: "bi bi-palette-fill",
       },
       {
         titulo: "Desarrollo Web",
         contexto: "Plataformas e-commerce y sitios web corporativos",
-        icono: "bi bi-lightbulb iconStyle",
+        icono: "bi bi-terminal-fill",
       },
       {
         titulo: "Fotografia",
         contexto: "Fotografía profesional, para productos, espacios y personas.",
-        icono: "bi bi-camera iconStyle",
+        icono: "bi bi-camera-fill",
       },
       {
         titulo: "Publicidad en Linea",
         contexto: "Campañas de públicidad en Facebook y Google Ads",
-        icono: "bi bi-gear iconStyle",
+        icono: "bi bi-megaphone-fill",
       },
     ],
   },

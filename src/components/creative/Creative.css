@@ -16,11 +16,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.fondo-we h2{
-  font-weight: bold;
+.fondo-we h2{ 
   font-size: 60px;
   color: black;
   font-family: 'Cookie', cursive;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
 .fondo-we p{
   font-size: 30px;

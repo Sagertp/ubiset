@@ -1,6 +1,6 @@
 .bodyBlog {
   color: #fff;
-  background: url(./wall.jpg) no-repeat center;
+  background: url(./Pano-Parque\ S\ Bolívar-1h.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -23,6 +23,9 @@
   font-size: 60px;
   font-weight: bold;
   font-family: 'Cookie', cursive;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  color: #f18513;
 }
 .blog-left p{
   font-size: 30px;

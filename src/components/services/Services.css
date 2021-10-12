@@ -1,12 +1,15 @@
 
 .bodyservices {
   color: #fff;
-  background: url(./Sagert-3.jpg) no-repeat center;
+  background: url(./HOME-FONDO.png) no-repeat center;
   background-size: cover;
   min-height: 100vh;
   position: relative;
   z-index: 1 !important;  
   /*filter: grayscale(100%);*/
+}
+i{
+  font-size: 50px;
 }
 .row>* {
   padding-left: 0px!important;
@@ -24,6 +27,8 @@
 .fondo-serv h2{
   font-size: 60px;
   font-family: 'Cookie', cursive;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
 .fondo-serv h3{
   position: absolute;
@@ -54,7 +59,9 @@
 }
 .servicios h4{
   font-family: 'Cookie', cursive;
-  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 .servicios p{
   font-family: 'Dosis', sans-serif;

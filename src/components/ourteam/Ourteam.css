@@ -1,6 +1,6 @@
 .bodyCreative {
   color: #fff;
-  background: url(./Parque.jpg) no-repeat center;
+  background: url(./Pano-Parque\ S\ Bolívar-1h.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -20,6 +20,7 @@
   color: rgb(0, 0, 0);
   font-size: 60px;
   font-family: 'Cookie', cursive;
+  font-family: 'Dosis', sans-serif;
   font-weight: bold;
 }
 .fondo-contact P{
