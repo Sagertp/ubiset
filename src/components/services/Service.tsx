@@ -1,5 +1,4 @@
 import React from "react";
-import fg from "./fotografia.png";
 
 const Service = (props:any) => {
   return (

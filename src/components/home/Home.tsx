@@ -1,7 +1,5 @@
 import React from "react";
 import "./Home.css";
-import desing from "./Imagen.svg"
-import home from "./Pano-Parque S Bolívar-1h.jpg"
 
 const Home = () => {
   return (

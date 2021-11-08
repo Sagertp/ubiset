@@ -1,6 +1,5 @@
 import React from "react";
 import "./Portfolio.css";
-import peopple from "./h-b-m.png";
 import castellana from "./dos.png"
 import integraciones from "./tres.png"
 import remet from "./cuatro.png"
@@ -13,9 +12,9 @@ const Portfolio = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <div className="fondo-port">
             <h2>Proyectos</h2>
-            <a target="_blank" href="http://www.castellanamotors.com/">Castellana Motors</a>
-            <a target="_blank" href="https://www.msintegraciones.com.ve/">M & S Integraciones</a>
-            <a target="_blank" href="http://www.remet.cl/">Remet</a>     
+            <a  href="http://www.castellanamotors.com/">Castellana Motors</a>
+            <a  href="https://www.msintegraciones.com.ve/">M & S Integraciones</a>
+            <a  href="http://www.remet.cl/">Remet</a>     
             <h3>04<strong>/06</strong></h3>
           </div>
         </div>
@@ -23,15 +22,15 @@ const Portfolio = () => {
           <div className="folio">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 uno">  
-                <a target="_blank" href="http://www.castellanamotors.com/"><img src={castellana} alt="" /></a>                              
+                <a  href="http://www.castellanamotors.com/"><img src={castellana} alt="" /></a>                              
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 dos">                
-                <a target="_blank" href="https://www.msintegraciones.com.ve/"><img src={integraciones} alt="" /></a>
+                <a  href="https://www.msintegraciones.com.ve/"><img src={integraciones} alt="" /></a>
               </div>
             </div>
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 tres">
-                <a target="_blank" href="http://www.remet.cl/"><img src={remet} alt="" /></a>                  
+                <a  href="http://www.remet.cl/"><img src={remet} alt="" /></a>                  
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 cuatro">
                 <img src={nueva} alt="" />

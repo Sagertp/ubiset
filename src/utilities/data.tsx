@@ -63,22 +63,22 @@ const Ubiset = {
     proyecto1: {
       titulo: "CASTELLANA MOTORS C.A.",
       contexto:
-        "Concesionario automotriz más importantes de la ciudad. Maquetación y diseño web para un landing page informativo.Tecnologías usadas Bootstrap, HTML5, CS, JAVASCRIPT.",
-      imagen: "",
+        "Concesionario automotriz más importantes de la ciudad. Tecnologías usadas Bootstrap, HTML5, CS, JAVASCRIPT.",
+      imagen: "./dos.png",
       url: "www.castellanamotors.com",
     },
     proyecto2: {
       titulo: "M & S INTEGRACIONES C.A.",
       contexto:
-        "Importante distribuidor de equipos y herramientas de CCTV.Maquetación y diseño web para tienda virtual de equipos de videovigilancia.Tecnologias usadas: Bootstrap, NodeJS, Express, Mysql",
-      imagen: "",
+        "Importante distribuidor de equipos y herramientas de CCTV. Tecnologias usadas: Bootstrap, NodeJS, Express, Mysql",
+      imagen: "./tres.png",
       url: "www.msintegraciones.com.ve",
     },
     proyecto3: {
       titulo: "REMET",
       contexto: "",
-      imagen: "",
-      link: "",
+      imagen: "./cuatro.png",
+      url: "http://www.remet.cl",
     },
     proyecto4: {
       titulo: "Fotografia",

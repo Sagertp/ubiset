@@ -1,8 +1,5 @@
 import React from "react";
 import "./Blog.css";
-import woman from "./woman.jpg";
-import colleagues from "./colleagues.jpg";
-import img1 from "./portrait.jpg"
 import img2 from "./pretty.png"
 
 const Blog = () => {
@@ -11,7 +8,6 @@ const Blog = () => {
       <div className="row fondo">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <div className="blog-left">
-            {/*<img className="img-services" src={servicios} alt="" />*/}
             <h2>Blog</h2>
             <p>
               Los mejores articulos de información, tendencia, tips de comercio electrónico, plataformas digitales, marketing digital, e-commerce, diseño, fotografía. 

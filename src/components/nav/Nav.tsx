@@ -1,16 +1,7 @@
 import React from "react";
 import "./Nav.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-} 
-
-from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import logo from "./logo.png";
-import desing from "./Imagen.svg"
 import Home from "../home/Home";
 import Services from "../services/Services";
 import Creative from "../creative/Creative";
@@ -20,18 +11,23 @@ import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
 
 const Nav = () => {
-  const out = () => {
-    console.log("LogOut");
-  };
   return (
     <Router>
       <header className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+	    <Link className="navbar-brand" to="/">
               <img src={logo} alt="Logo Ubiset" />
-            </a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
@@ -70,7 +66,7 @@ const Nav = () => {
             </div>
           </div>
         </nav>
-      </header>    
+      </header>
       <Switch>
         <Route exact path="/">
           <Home />

@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import "./Services.css";
-import servicios from "./SERVICIOS.png"
-import dg from "./diseno.png"
-import dw from "./web.png"
-import fg from "./fotografia.png"
-import pl from "./publicidad.png"
 import Service from "./Service";
 import ubiset from "../../utilities/data";
 const Services = () => {
   const cont = 0
   const lista = ubiset.servicios.servicio;
-  const [servicio, setServicio] = useState(lista);
+  const [servicio, ] = useState(lista);
   console.log(servicio);
   return (
     <div className="container-fluid bodyservices">
