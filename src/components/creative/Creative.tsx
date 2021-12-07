@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Creative.css";
-import us from "./open.jpg"
+import us from "./open.jpg";
+
+
 const Creative = () => {
+
   return (
     <div className="container-fluid bodywe">
       <div className="row grid">

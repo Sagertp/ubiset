@@ -8,7 +8,7 @@ import Creative from "../creative/Creative";
 import Ourteam from "../ourteam/Ourteam";
 import Blog from "../blog/Blog";
 import Portfolio from "../portfolio/Portfolio";
-import Contact from "../contact/Contact";
+/*import Contact from "../contact/Contact";*/
 
 const Nav = () => {
   return (
@@ -86,9 +86,9 @@ const Nav = () => {
         <Route path="/proyects">
           <Portfolio />
         </Route>
-        <Route path="/touch">
+        {/*<Route path="/touch">
           <Contact />
-        </Route>
+  </Route>*/}
       </Switch>
     </Router>
   );

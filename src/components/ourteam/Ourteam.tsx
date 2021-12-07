@@ -21,13 +21,14 @@ const Creative = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <div className="fondo-contact-2 after">
             <div className="container">
-              <form>
+              <form action="">
                 <div className="form-group">
-                  <label>Nombre</label>
+                  <label htmlFor="nombre">Nombre</label>
                   <input
-                    type="nombre"
+                    type="text"
                     className="form-control"
-                    id="exampleInputNombre1"
+                    id="nombre"
+                    name="nombre"
                     aria-describedby="nombrelHelp"
                     placeholder=""
                   />
