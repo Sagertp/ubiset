@@ -15,7 +15,7 @@ const Services = () => {
             {/*<img className="img-services" src={servicios} alt="" />*/}
             <h2><span>{ubiset.servicios.titulo}</span></h2>
             <p>{ubiset.servicios.contexto}</p>
-            <h3>03<strong>/06</strong></h3>
+            <h3>03<strong>/05</strong></h3>
           </div>             
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 after">

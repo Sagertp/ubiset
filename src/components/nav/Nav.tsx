@@ -5,10 +5,8 @@ import logo from "./logo.png";
 import Home from "../home/Home";
 import Services from "../services/Services";
 import Creative from "../creative/Creative";
-import Ourteam from "../ourteam/Ourteam";
-import Blog from "../blog/Blog";
+import Contact from "../contact/Contact";
 import Portfolio from "../portfolio/Portfolio";
-/*import Contact from "../contact/Contact";*/
 
 const Nav = () => {
   return (
@@ -16,7 +14,7 @@ const Nav = () => {
       <header className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-	    <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/">
               <img src={logo} alt="Logo Ubiset" />
             </Link>
             <button
@@ -53,12 +51,7 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/blog">
-                    Blog
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/team">
+                  <Link className="nav-link" to="/contact">
                     Contacto
                   </Link>
                 </li>
@@ -74,21 +67,15 @@ const Nav = () => {
         <Route exact path="/creative">
           <Creative />
         </Route>
-        <Route path="/Services">
+        <Route path="/services">
           <Services />
         </Route>
-        <Route path="/team">
-          <Ourteam />
-        </Route>
-        <Route path="/blog">
-          <Blog />
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/proyects">
           <Portfolio />
         </Route>
-        {/*<Route path="/touch">
-          <Contact />
-  </Route>*/}
       </Switch>
     </Router>
   );

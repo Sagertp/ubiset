@@ -9,7 +9,7 @@ const Home = () => {
           <div className="fondo-home">
             {/*<img className="img-services" src={servicios} alt="" />*/}  
             <h2>Utilizamos la investigación, la estrategia y el diseño para crear <p className="negrita"> experiencias de usuario atractivas</p></h2>
-            <h3>01<strong>/06</strong></h3>
+            <h3>01<strong>/05</strong></h3>
           </div>         
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6"></div>
